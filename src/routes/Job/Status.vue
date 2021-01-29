@@ -39,16 +39,17 @@
 					<v-col cols="12">
 						<job-data-panel></job-data-panel>
 					</v-col>
-				</v-row>
-
-				<v-row class="flex-grow-0 flex-shrink-1 hidden-sm-and-up mt-3">
-					<v-col cols="6" md="6">
-						<fans-panel></fans-panel>
-					</v-col>
-					<v-col cols="6" md="6">
+					<v-col cols="12">
 						<speed-factor-panel></speed-factor-panel>
 					</v-col>
+					<v-col cols="12">
+						<extrusion-factors-panel></extrusion-factors-panel>
+					</v-col>
+					<v-col cols="12">
+						<fans-panel></fans-panel>
+					</v-col>
 				</v-row>
+
 			</v-col>
 
 			<v-col order="2" order-md="3" cols="12" sm="6" md="4" xl="3">
@@ -64,13 +65,8 @@
 					</v-col>
 
 					<v-col cols="12" class="hidden-sm-only">
-						<speed-factor-panel></speed-factor-panel>
-					</v-col>
-					<v-col cols="12">
-						<fans-panel></fans-panel>
-					</v-col>
-					<v-col cols="12" class="hidden-sm-only">
-						<extrusion-factors-panel></extrusion-factors-panel>
+						<webcam-panel></webcam-panel>
+						<macro-list></macro-list>
 					</v-col>
 				</v-row>
 			</v-col>
